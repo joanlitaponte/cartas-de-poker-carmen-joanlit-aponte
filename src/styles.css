@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: green;
+  margin: 0;
+}
+
+.card {
+  width: 150px;
+  height: 220px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+#palo-arriba {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 25px;
+}
+
+
+#numero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+
+#palo-abajo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 25px;
+  transform: rotate(180deg);
+}
+
+
+.heart, .diamond { color: red; }
+.spade, .club { color: black; }
